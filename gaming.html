@@ -11,14 +11,8 @@
 
 
 <body>
-<div class="top-container" >
-    <h1 style="font-size:80px; color: #d9d9d9;"><center>Gaming</center></h1>
-</div>
 
 
-
-
-<div id="main">
 
 <div id="topnav">
     <a class="active" href="#home"><span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Home</span></a>
@@ -40,15 +34,19 @@
     <a href="javascript:void(0)">Help</a>
   </div>
 
+<div class="parallax">
+  <div class="top-container">
+      <h1 style="font-size:80px; color: white; padding-top:50px;"><center>Gaming</center></h1>
+  </div>
+</div>
 
-
-
+<div id="main">
   <div class="content">
     <div class="main">
         <div id="section1">
           <div class="row">
 
-        <p style="font-size:40px; padding-left: 15px; margin-bottom: 0px; color: red;">Online Minigames</p>
+        <p style="font-size:40px; padding-left: 15px; margin-bottom: 0px; color: white;">Online Minigames</p>
 
         <div class="column1">
 
@@ -63,7 +61,7 @@
         </div>
 
         <div class="column2">
-          <img src="https://www.linkedin.com/media-proxy/ext?w=1280&h=720&hash=h3EJXFZriwP2EAMCvg%2BFtx5LA9w%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodxw9v5buTokix6UJVC4zZFi-jWyeq5YTCJC66JZKcZrChpl0LeC8ckQMvfuy1Qjn-T8L0ad-sKYkn2tK5YP_lNEkMeRs" style="height: 135%; width: 92%; padding-top:80px; padding-left: 70px;">
+          <img src="https://www.linkedin.com/media-proxy/ext?w=1280&h=720&hash=h3EJXFZriwP2EAMCvg%2BFtx5LA9w%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodxw9v5buTokix6UJVC4zZFi-jWyeq5YTCJC66JZKcZrChpl0LeC8ckQMvfuy1Qjn-T8L0ad-sKYkn2tK5YP_lNEkMeRs" style="height: 135%; width: 92%; padding-top:80px; padding-left: 70px; border: radius: 15px;">
         </div>
 
       </div>
@@ -109,7 +107,7 @@
        <div class="row">
 
 
-          <p style="font-size:40px; padding-left: 15px; padding-top:10px; margin-bottom: 5px; color: red;">.io Games</p>
+          <p style="font-size:40px; padding-left: 15px; padding-top:10px; margin-bottom: 5px; color: white;">.io Games</p>
    
         <div class="column1">
 
@@ -182,7 +180,7 @@
       <div id="section3">
         <div class="row">
 
-          <p style="font-size:40px; padding-left: 15px; padding-top: 50px; margin-bottom: 5px; color: red;">First Person Shooter Games</p>
+          <p style="font-size:40px; padding-left: 15px; padding-top: 50px; margin-bottom: 5px; color: white;">First Person Shooter Games</p>
 
           <div class="column1">
 
@@ -233,6 +231,7 @@
           </div> <!--ROW-->
         </div> <!--SECTION 3-->
       </div> <!--MAIN-->
+    
         
 
     <br>
@@ -315,6 +314,8 @@
     </div> <!--MAIN-->
   </div> <!--CONTENT-->
 
+</div> <!--id MAIN-->
+
 
 </body>
 
@@ -338,10 +339,17 @@
 .top-container {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url("https://image.freepik.com/free-vector/3d-modern-abstract-gaming-dark-blue-background_52659-181.jpg");
     background-size: 100% 100%;
-    height: 400px;
+    height: 700px;
+}
+.parallax{
 
+  background-image: url("https://i.pinimg.com/originals/99/4c/f8/994cf894ea11bacd972d08dfa0dea5cc.gif");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #topnav {
