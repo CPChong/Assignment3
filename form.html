@@ -1,3 +1,187 @@
 <html>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdGzd10br78sZP39zTX9LVeKTWJ-ZUtV4US3GDrWOj5i_p0g/viewform?embedded=true" width="640" height="540" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <head>
+        <link rel="icon" href="https://image.flaticon.com/icons/png/512/2746/2746379.png" type="image/gif" sizes="16x16">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    </head>
+    <body>
+        <div id="main">
+        
+      
+            <div class="topnav">
+                <a class="active" href="#home"><span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Home</span></a>
+                
+                <!--<form action="">
+                  <input type="search">
+                  <i class="fa fa-search"></i>
+                </form>-->
+            
+                <div class="right-side">
+                    <a href="#about">Register/Login</a>
+                    <a href="https://cpchong.github.io/Assignment3/form.html">Submit a Site</a>
+                </div>
+              </div>
+            
+            
+            
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Help</a>
+              </div>
+    <center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdGzd10br78sZP39zTX9LVeKTWJ-ZUtV4US3GDrWOj5i_p0g/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+</body>
+<style>
+    body{
+        background-color: black;
+        font-family: Muli;
+    }
+
+    .topnav {
+  overflow: hidden;
+  background-color: #282E43;
+  height: 65px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: bottom;
+  padding: 20px 16px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 65px;
+}
+
+.topnav a:hover {
+  background-color: #56628f;
+  color: white;
+  transition:0.45s;
+  height: 65px;
+
+}
+
+.topnav a.active {
+  background-color: #282E43;
+  color: white;
+}
+
+.topnav .right-side {
+  float: right;
+
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #282E43;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+
+
+form{
+    position: static;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+    float: middle;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #282E43;
+    color: white;
+}
+
+
+
+</style>
+
+
 </html>
