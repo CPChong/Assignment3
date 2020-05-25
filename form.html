@@ -29,10 +29,12 @@
             
               <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Home</a>
+                <a href="https://cpchong.github.io/Assignment3/#home">Home</a>
                 <a href="#">About</a>
                 <a href="#">Help</a>
               </div>
+
+
     <center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdGzd10br78sZP39zTX9LVeKTWJ-ZUtV4US3GDrWOj5i_p0g/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
 </body>
 <style>
@@ -41,7 +43,72 @@
         font-family: Muli;
     }
 
-    .topnav {
+    a:link {
+  text-decoration:none;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  height: 400px;
+  margin-left: 0px;
+  margin-right: 175px;
+  background-image: url("https://i.pinimg.com/originals/99/4c/f8/994cf894ea11bacd972d08dfa0dea5cc.gif");
+  background-size: 100% 500px;
+}
+
+.column15 {
+  float: right;
+  width: 50%;
+  margin-left: 50px;
+  font-size: 50px;
+
+}
+
+.column3 {
+  float: right;
+  width: 50%;
+  height: 400px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-image: url("https://cdn.dribbble.com/users/165025/screenshots/2922036/spaceships-in-space.gif");
+  background-size: 100% 500px;
+}
+
+
+.column2 {
+  float: left;
+  width: 50%;
+  height: 500px;
+  margin-left: 0px;
+  margin-right: 175px;
+  background-image: url("https://data.whicdn.com/images/263574384/original.gif");
+  background-size: 100% 500px;
+}
+
+.column25{
+  float: right;
+  width: 50%;
+  margin-left: 0px;
+  font-size: 50px;
+}
+
+.column4 {
+  float: left;
+  width: 24.5%;
+  padding: 0 10px;
+  padding-left: 40px;
+}
+
+.des {
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+
+.topnav {
   overflow: hidden;
   background-color: #282E43;
   height: 65px;
@@ -181,7 +248,47 @@ form:hover .fa{
 
 
 
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  text-decoration: none!important;
+}
+
+
 </style>
 
+<script>
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 
 </html>
